@@ -1,0 +1,8 @@
+<h2>Ejercicio 2</h2>
+<button (click)="onButtonClick()">Click para validar tablero</button>
+<h3>Tablero</h3>
+<div *ngFor="let row of ajedrez.tablero">
+  <span *ngFor="let el of row">
+    {{ el }}
+  </span>
+</div>
